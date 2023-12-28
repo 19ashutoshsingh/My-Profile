@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: #40514e;
+}
+p{
+    line-height: 2;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Mogra', cursive;
+    margin: 50px auto 0;
+    font-size: 4rem;
+    font-weight: 100;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+h3{
+    color: #66BFBF;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.user{
+    padding-top: 80px;
+    width: 200px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.giphy-embed{
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    margin-right: 30px;
+    float: left;
+}
+.my-skill{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+}
+.skill2{
+    margin-top: 80px;
+}
+.samosa{
+    width: 10rem;
+    float: right;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+hr{
+    border: dotted 5px rgba(128, 128, 128, 0.315);
+    border-bottom: none;
+    width: 50px;
+    margin:80px auto;
+}
+footer{
+    background-color: #66BFBF;
+    color: #eaf6f6;
+    padding: 10px;
+    margin-top: 80px;
+    font-size: 0.8rem;
+}
+footer a{
+    color: #11999E;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.05rem;
+}
+footer a:hover{
+    color: #eaf6f6;
+}
+.btn{
+    background-image: linear-gradient(#11cdd4, #11999e);
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+}
+.btn:hover{
+    background-image: linear-gradient(#30e3cb, #2bc4ad);
+    cursor: pointer;
+}
+
+.image{
+    border-radius: 50%;
+}
