@@ -103,3 +103,31 @@ footer a:hover{
 .image{
     border-radius: 50%;
 }
+
+
+@media screen and (max-width: 600px) {
+    .mountain{
+        width: 100vw;
+    }
+    .top-cloud{
+        width: 30vw;
+        left: 5vw;
+    }
+    .bottom-cloud{
+        width: 30vw;
+        left: 65vw;
+        bottom: 50vw;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    .user{
+        width: 50vw;
+    }
+    .giphy-embed, .samosa{
+        width: 50vw;
+    }
+}
